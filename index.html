@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <p><strong>Sign Up</strong></p>
+        <div>
+        <form>
+            <fieldset width="100" HEIGHT="100">
+                <legend class="titre">Personal Details</legend>
+                <label class="tit" for="salutations" >Salutation</label><br><br>
+                <select id="salutations" name="salutations">
+                    <option value="--None--">--None--</option>
+                    <option value="Mr.">Mr.</option>
+                    <option value="Ms.">Ms.</option>
+                    <option value="Mrs.">Mrs.</option>
+                </select><br><br>
+                <label class="tit " for="Fname">First Name :</label>
+                <input class="inpu" type="text" name="Fame" id="Fname" required><br><br>
+                
+                <label class="tit "  for="Lname">Last Name :</label>
+                <input class="inpu" type="text" name="Lname" id="Lname" required><br><br>
+                
+                <label class="tit " for="Gender">Gender :</label>
+                
+                <input class="inpu" type="Radio" name="Range" id="Range" required>
+                <label for="Male">Male</label>
+                
+                <input class= "" type="Radio" name="Radio" id="Radio" required>
+                <label for="Female">Female</label><br><br>
+                
+                <label class="tit " for="Email">Email :</label>
+                <input class="inpu" type="Email" name="Email" id="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="azerty@gmail.com" required>
+                <br><br>
+                
+                <label class="tit " for="Date">Date of birth :</label>
+                <input class="inpu" type="Date" name="Date" id="Date" required><br><br>
+                
+                <label class="tit " for="Adress">Adress :</label><br>
+                <textarea name="message" rows="10" cols="30"></textarea><br><br>
+                <button class="butt" type="Submit">Submit</button>
+  
+
+               
+
+            </fieldset>
+        </form>
+    </div>
+    </body>
+</html>

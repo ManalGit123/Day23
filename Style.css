@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    background-image: url("flamingos-gaf20aefcd_1280.jpg");
+    
+}
+p {
+    text-align: center;
+    font-size: xx-large;
+    color:pink;
+}
+div {
+    text-align:center;
+    Height :560px;
+    width : 30%;
+    border: 2px solid #fd2ea7;
+    margin: auto;
+    background-color: pink;
+    
+
+}
+.titre {
+    color: rgb(167, 7, 167);
+    font-size:200%;
+    font-weight: 200;
+}
+.tit {
+    color:#fd2ea7;
+    font-size: large;
+
+}
+.input {
+    Height : 5px;
+    width : 20px;
+    font-size: medium;
+    
+}
+
+.butt {
+    border-radius: 10px;
+    height: 30px;
+    width: 70px;
+    background-color: pink;
+    color:rgb(167, 7, 167);
+    font-weight: 700;
+
+}
+.butt:hover {
+ background-color: #d87bb1;
+ color:beige;
+}
+
+.inpu{
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 10px;
+   
+}
